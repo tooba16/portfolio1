@@ -1,0 +1,53 @@
+body{
+    background-image:  url('./images/water.png');
+    background-size: cover; /* Puri screen ko cover kare */
+    background-position: center; /*Image ko center mein rakhne ke liye */
+     background-repeat: no-repeat; /* Image repeat na ho */
+    filter: brightness(100%); /* Lower brightness makes the image darker */
+} 
+    .box {
+        border: 10px solid #000000;
+        padding: 10px;
+        margin: 500px;
+        width: 100%;
+    }
+    table {
+        width: 2000px;
+        height: 500px;
+        padding: 100px;
+        margin: -50px;
+        border-collapse: collapse;
+    }
+    td {
+        background-color:#39b6e7;
+        padding: 5px;
+        text-align: center;
+        border-bottom: 1px solid rgb(235, 235, 12);
+    }
+    /* <!-- CSS Styling image-->*/
+    .box {
+        border: 1px solid #000; /*Border around the table*/
+        padding: 0px;
+        width: 250px;
+        margin-top: 10%;
+        font-size:x-large;
+
+        
+    }  
+     table {
+        width: 200%;
+        height: -100%;
+        border-collapse: collapse;
+    }
+    td {
+        padding: 5px;
+        text-align: center; /* Centering the image in the cell */
+         border: 1px solid #ddd; 
+    img {
+        max-width: 200%; /* Makes the image responsive inside the cell */
+        height: auto;
+        padding-left: 0%;
+        margin: 10;
+    }
+    
+    }

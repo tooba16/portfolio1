@@ -1,0 +1,83 @@
+body{
+    background-image:  url('./images/images\ 2.png');
+    background-size: cover; /* Puri screen ko cover kare */
+     background-position: center; /*Image ko center mein rakhne ke liye */
+      background-repeat: no-repeat; /* Image repeat na ho */
+     filter: brightness(40px); /* Lower brightness makes the image darker */
+   }
+  .heading,h1{
+    margin-right: 80px; 
+    position: relative;
+    right: -20%;
+    font-size: 50px;
+  }
+  
+  footer {
+      /* background-color: black; */
+     
+      padding: 20px 0;
+      font-size: 20px;
+      
+    }
+    
+    
+    h2,.footer-section {
+      display: flex;
+      justify-content: space-around;
+      text-align: left;
+      padding-left: 60px;
+      margin-left: -70px;
+      
+       
+    }
+    
+    .footer-column {
+      flex: 1;
+      margin: 0 15px;
+      right:-90px; 
+      position:relative;
+      
+    }
+    
+    .footer-column h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      
+    }
+    
+    .footer-column ul {
+      list-style-type: none;
+      padding: 0;
+      margin-right: 50px; 
+      position: relative;
+      right: 10px
+    }
+    
+     .footer-column :hover li {
+      margin-bottom: 8px;
+      color: #000000;
+      background-color: aqua
+       ;
+    }
+     
+     .footer-column ul li a {
+      color:#00008b;
+      text-decoration: none;
+    } 
+    
+      .footer-column ul li a:hover {
+      text-decoration: underline; 
+      color: #00008b;
+    } 
+    .home{
+      padding-left: -20px;
+    } 
+    img {
+      height: 80px;
+       border-radius: 80%; 
+      padding: 60px;
+      margin-right: 50px; 
+      position: relative;
+      right: -10px
+  
+  }

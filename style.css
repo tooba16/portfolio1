@@ -1,0 +1,142 @@
+body{
+    background-image:  url('./images/leaves.png');
+    background-size: cover; /* Puri screen ko cover kare */
+    background-position: center; /*Image ko center mein rakhne ke liye */
+     background-repeat: no-repeat; /* Image repeat na ho */
+     
+} 
+header { 
+    display:flex;
+    justify-content: space-between;
+    align-items:center;;
+    padding: 0px;
+    background-color: #006400;
+    
+   
+    
+    
+}
+
+img {
+    height: 80px;
+    border-radius: 80%;
+    padding: 20px;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: -80px;
+    padding: 60px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background:rgb(241, 165, 176);
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 0px;
+    }}
+    
+       .hearder-btn button{
+        padding: 18px 16px;
+        cursor: pointer;
+        background-color: red;
+        color:white;
+        border: 3px solid yellow;
+        margin: 20px;
+        border-radius: 1px;
+    }
+    .hearder-btn button:hover{
+        background-color: yellow;
+        color: red;
+    }
+    h6{
+       font-size: 40px; 
+      line-height: 0.5%;
+      margin-right: 50%;
+      color:black;
+      
+    }
+    
+     
+      .pic,Image{
+        padding: -20%; 
+        margin:  80%; 
+        width:-50%;
+        height: 90px;
+        text-align: right;
+        margin-top: -20%; 
+        border-radius: 50%;
+    
+       
+    }   
+     
+   
+  
+
+ footer {
+    background-color: black;
+    color:aqua;
+    padding: 20px 0;
+  }
+  
+  h2,.footer-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding-left: 60px;
+    margin-left: -130px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  .home{
+    padding-left: -20px;
+  }
